@@ -33,6 +33,7 @@ function NavBar() {
             justifyContent="space-between"
             position="fixed"
             p="20px"
+            as="nav"
         >
             <Box>
                 <Text

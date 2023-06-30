@@ -11,49 +11,7 @@ import {GiSpiralLollipop} from "react-icons/gi"
 
 function HomeSection() {
 
-    const  IMAGE_URL = [
-        {
-            src:"/images/html.png",
-            label: "html"
-        }, 
-        {
-            src:"/images/css.png",
-            label: "css"
-        }, 
-        {
-            src:"/images/javascript.png",
-            label: "js"
-        }, 
-        {
-            src:"/images/tailwind.png",
-            label: "tailwind"
-        }, 
-        {
-            src:"/images/react.png",
-            label: "react"
-        }, 
-        {
-            src:"/images/nextjs.png",
-            label: "next"
-        }, 
-        {
-            src:"/images/node.png",
-            label: "node"
-        }, 
-        {
-            src:"/images/mongo.png",
-            label: "mongo"
-        }, 
-        {
-            src:"/images/firebase.png",
-            label: "firebase"
-        }, 
-        {
-            src:"/images/github1.png",
-            label: "github1"
-        }, 
 
-    ]
 
     return (
     <Box
@@ -132,6 +90,8 @@ function HomeSection() {
                     src="/images/portfolio-img.jpeg"
                     width="300px"
                     height="300px"
+                    ml="20px"
+                    mt="20px"
                 />
             </Box>
         </Flex>
