@@ -4,7 +4,8 @@ import { Box, Text } from "@chakra-ui/react";
 
 function NavBar() {
 
-    const  NAV_LINKS = [
+    const  NAV_LINKS = 
+    [
         {
             label: "Home",
             link: "/"

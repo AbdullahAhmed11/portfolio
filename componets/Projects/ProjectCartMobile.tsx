@@ -14,7 +14,7 @@ interface Project {
     codeText: string;
     codeIcon: string
 }
-function ProjectCart() {
+function ProjectCartMobile() {
 
     const PROJECT_PROPS = [
         {
@@ -95,8 +95,9 @@ function ProjectCart() {
                             <Box
                                 bg="#fff"
                                 display="flex"
+                                flexDirection="column"
                                 width="100%"
-                                height="25rem"
+                                height="45rem"
                                 rounded="80px"
                                 boxShadow="0 0 10px rgba(0,0,0,.1)"
                                 alignItems="center"
@@ -104,11 +105,11 @@ function ProjectCart() {
                                 key={cart.imgUrl}
                                 mb="30px"
                             >
-                                <Box ml="10px">
+                                <Box ml="10px" mt="50px">
                                     <Image
                                         src={cart.imgUrl}
-                                        width="30rem"
-                                        height="20rem"
+                                        width="20rem"
+                                        height="15rem"
                                         rounded="20px"
                                         boxShadow="0 0 10px rgba(0,0,0,.1)"
 
@@ -119,7 +120,7 @@ function ProjectCart() {
                                     flexDirection="column"
                                     alignItems="center"
                                     justifyContent="center"
-                                    width="30rem"
+                                    width="20rem"
                                     textAlign="center"
                                     gap="20px"
                                 >
@@ -235,4 +236,4 @@ function ProjectCart() {
             </>
     )
 }
-export default ProjectCart;
+export default ProjectCartMobile;

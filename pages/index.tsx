@@ -37,6 +37,9 @@ export default function Home() {
           isLargerThan798 ? <About/> : <AboutMobile/>
         }
       </Box>
+      <Box>
+        <Projects/>
+      </Box>
 
         
     </Box>

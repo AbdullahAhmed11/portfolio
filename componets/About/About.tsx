@@ -147,7 +147,7 @@ function About() {
                                 fontFamily="Mulish,sans-serif"
                                 color="#767676"
                             >
-            As a Junior Front-End Developer width 1 year experience, I possess an impressive arsenal of skills in 
+            As a Junior Front-End Developer with 1 year experience, I possess an impressive arsenal of skills in 
             HTML, CSS, JavaScript, React, Next, Node, Express, MongoDb, Tailwind, and SCSS. I excel in designing and maintaining 
             responsive websites that offer a smooth user experience. My expertise lies in crafting 
             dynamic, engaging interfaces through writing clean and optimized code and utilizing 
