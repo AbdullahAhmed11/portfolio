@@ -17,11 +17,11 @@ function AboutPage () {
             <title>@devAbdullah | About</title>
         </Head>
         <MaxWidthWrapper>
-
             <Box
                 mt="40px"
                 display="flex"
                 gap="10px"
+                p="20px"
             >
                 <Text>Back to</Text>
                     <Text

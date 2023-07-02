@@ -60,6 +60,9 @@ function MobileNavBar() {
                 justifyContent="space-between"
                 position="fixed"
                 p="20px"
+                bg="#fff"
+                as="nav"
+                top="0"
             >
             <Box>
 
@@ -100,14 +103,17 @@ function MobileNavBar() {
               {
                     NAV_LINKS.map((item) => (
                         <Text 
-                            key={item.label}
-                            fontWeight="bold"
-                            fontSize="1.2rem"
-                            color="#2d2e32"
-                            cursor="pointer"
-                        >
-                            {item.label}
-                        </Text>
+                        key={item.label}
+                        fontWeight="bold"
+                        fontSize="1.2rem"
+                        color="#2d2e32"
+                        cursor="pointer"
+                        as="a"
+                        href={item.link}
+                        textDecorationLine="none"
+                    >
+                        {item.label}
+                    </Text>
                     ))
                 }
                 </Box>
