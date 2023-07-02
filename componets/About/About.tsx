@@ -153,6 +153,7 @@ function About() {
             dynamic, engaging interfaces through writing clean and optimized code and utilizing 
             cutting-edge development tools and techniques. I am also a team player who thrives in 
             collaborating with cross-functional teams to produce outstanding web applications.
+            <strong>Currently</strong> I am working as a <strong>front-end developer</strong> at <strong>Shopless</strong>, building exceptional websites and apps. I spend my free time working on a new side project and reading about software patterns and architectures such as Clean Architecture.
                             </Text>
                         </Box>
                     </Box>

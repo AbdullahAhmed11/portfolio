@@ -108,7 +108,7 @@ function ProjectCartMobile() {
                                 <Box  mt="70px">
                                     <Image
                                         src={cart.imgUrl}
-                                        width="20rem"
+                                        width="18rem"
                                         height="15rem"
                                         rounded="20px"
                                         boxShadow="0 0 10px rgba(0,0,0,.1)"
