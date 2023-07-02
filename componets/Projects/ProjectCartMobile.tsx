@@ -105,7 +105,7 @@ function ProjectCartMobile() {
                                 key={cart.imgUrl}
                                 mb="30px"
                             >
-                                <Box ml="10px" mt="50px">
+                                <Box  mt="70px">
                                     <Image
                                         src={cart.imgUrl}
                                         width="20rem"
@@ -122,7 +122,7 @@ function ProjectCartMobile() {
                                     justifyContent="center"
                                     width="20rem"
                                     textAlign="center"
-                                    gap="20px"
+                                    gap="15px"
                                 >
                                     <Text
                                         color="#2d2e32"
@@ -141,6 +141,7 @@ function ProjectCartMobile() {
                                     <Box
                                         display="flex"
                                         gap="5px"
+                                        p="10px"
                                     >
                                         {
                                             cart.stack.map((item) => (
@@ -153,8 +154,9 @@ function ProjectCartMobile() {
                                             alignItems="center"
                                             justifyContent="center"
                                             key={item.react}
+                                            
                                         >
-                                            <Text fontWeight="bold">{item.react}</Text>
+                                            <Text  fontWeight="bold">{item.react}</Text>
                                         </Box>
                                             ))
                                         }
