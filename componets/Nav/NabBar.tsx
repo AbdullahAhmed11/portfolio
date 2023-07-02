@@ -35,6 +35,7 @@ function NavBar() {
             position="fixed"
             p="20px"
             as="nav"
+            bg="#fff"
         >
             <Box>
                 <Text
