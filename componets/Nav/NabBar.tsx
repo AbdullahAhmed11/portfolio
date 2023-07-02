@@ -15,8 +15,8 @@ function NavBar() {
             link: "/about"
         },
         {
-            label: "Project",
-            link: "/project"
+            label: "Projects",
+            link: "/projects"
         },
         {
             label: "Contact",
@@ -55,12 +55,16 @@ function NavBar() {
             >
                 {
                     NAV_LINKS.map((item) => (
+
                         <Text 
                             key={item.label}
                             fontWeight="bold"
                             fontSize="1.2rem"
                             color="#2d2e32"
                             cursor="pointer"
+                            as="a"
+                            href={item.link}
+                            textDecorationLine="none"
                         >
                             {item.label}
                         </Text>
