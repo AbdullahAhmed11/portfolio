@@ -20,6 +20,7 @@ function ProjectsPage () {
                 mt="40px"
                 display="flex"
                 gap="10px"
+                ml="40px"
             >
                 <Text>Back to</Text>
                     <Text

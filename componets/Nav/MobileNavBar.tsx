@@ -30,8 +30,8 @@ function MobileNavBar() {
             link: "/about"
         },
         {
-            label: "Project",
-            link: "/project"
+            label: "Projects",
+            link: "/projects"
         },
         {
             label: "Contact",

@@ -154,12 +154,13 @@ function AboutMobile() {
                                 color="#767676"
                                 p="10px"
                             >
-            As a Junior Front-End Developer width 1 year experience, I possess an impressive arsenal of skills in 
+ As a Junior Front-End Developer with 1 year experience, I possess an impressive arsenal of skills in 
             HTML, CSS, JavaScript, React, Next, Node, Express, MongoDb, Tailwind, and SCSS. I excel in designing and maintaining 
             responsive websites that offer a smooth user experience. My expertise lies in crafting 
             dynamic, engaging interfaces through writing clean and optimized code and utilizing 
             cutting-edge development tools and techniques. I am also a team player who thrives in 
             collaborating with cross-functional teams to produce outstanding web applications.
+            <strong>Currently</strong> I am working as a <strong>front-end developer</strong> at <strong>Shopless</strong>, building exceptional websites and apps. I spend my free time working on a new side project and reading about software patterns and architectures such as Clean Architecture.
                             </Text>
                         </Box>
                     </Box>

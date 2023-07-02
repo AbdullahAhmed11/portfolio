@@ -10,6 +10,9 @@ import { useMediaQuery } from '@chakra-ui/react'
 import MobileNavBar from "@/componets/Nav/MobileNavBar"
 import HomeSectionMobile from "@/componets/HomeSection/HomeSectionMobile"
 import AboutMobile from "@/componets/About/AboutMobile"
+import Contact from "@/componets/Contact/Contact"
+import ContactMobile from "@/componets/Contact/ContactMobile"
+import Footer from "@/componets/Footer/Footer"
 
 
 export default function Home() {
@@ -40,8 +43,12 @@ export default function Home() {
       <Box>
         <Projects/>
       </Box>
-
+      <Box mt="70px">
+        {
+          isLargerThan798 ? <Contact/> : <ContactMobile/>
+        }
         
+      </Box>
     </Box>
 
   )
