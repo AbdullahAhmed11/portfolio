@@ -2,21 +2,7 @@ import React from "react";
 import { 
         Box,
         Text, 
-        Flex, 
-        HStack, 
-        IconButton, 
-        useDisclosure, 
-        useColorModeValue, 
-        Stack,
-        Button,
-        Drawer,
-        DrawerOverlay,
-        DrawerBody,
-        DrawerContent,
-        DrawerHeader
     } from '@chakra-ui/react';
-import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
-import Link from 'next/link';
 import {RxHamburgerMenu} from "react-icons/rx"
 import {AiFillCloseCircle} from "react-icons/ai"
 function MobileNavBar() {
@@ -48,24 +34,22 @@ function MobileNavBar() {
 
     return (
         <Box
-            display="flex"
-            flexDirection="column"
-            zIndex="1000"
+        width="100%"
+        boxShadow="0 0 10px rgba(0,0,0,.09)"
+        position="fixed"
+        p="20px"
+        bg="#fff"
+        as="nav"
+        top="0"
+        flexDirection="column"
+        zIndex="1000"
         >
             <Box
-                width="100%"
-                boxShadow="0 0 10px rgba(0,0,0,.09)"
                 display="flex"
                 alignItems="center"
                 justifyContent="space-between"
-                position="fixed"
-                p="20px"
-                bg="#fff"
-                as="nav"
-                top="0"
             >
             <Box>
-
                 <Text
                     fontWeight="bold"
                     fontSize="1.2rem"
@@ -93,7 +77,7 @@ function MobileNavBar() {
             {
                 showLinks ? (
                     <Box
-                    mt="150px"
+                    mt="50px"
                     display="flex"
                     flexDirection="column"
                     justifyContent="center"
