@@ -91,7 +91,7 @@ function ProjectCart() {
 
         },
         {
-            imgUrl: "/images/React-app.png",
+            imgUrl: "/images/React-App.png",
             title: "Teste Restaurnt & BBQ",
             desc: "Delicious food for your cravings We made fresh and healthy meals with different recipes Delicious food for your craving We made fresh and healthy meals with different recipes",
             stack: [
