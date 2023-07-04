@@ -37,7 +37,8 @@ function ProjectCart() {
             codeText: "Code",
             codeIcon: <AiFillGithub/>,
             haveCode: false,
-            projectUrl: "https://the-bithub.com/"
+            projectUrl: "https://the-bithub.com/",
+            codeUrl: ""
 
         },
 
@@ -59,10 +60,12 @@ function ProjectCart() {
             codeText: "Code",
             codeIcon: <AiFillGithub/>,
             haveCode: false,
-            projectUrl: "https://foodyman.org/"
+            projectUrl: "https://foodyman.org/",
+            codeUrl: ""
+
 
         },
-                {
+        {
             imgUrl: "/images/Biznes.png",
             title: "Biznes Clinics",
             desc: "The Ultimate Startup Growth Platform, The Ultimate Startup Growth Platform ",
@@ -82,7 +85,33 @@ function ProjectCart() {
             codeText: "Code",
             codeIcon: <AiFillGithub/>,
             haveCode: false,
-            projectUrl: "https://bizclinic-2608qwjs0-bith-ub.vercel.app/"
+            projectUrl: "https://bizclinic-2608qwjs0-bith-ub.vercel.app/",
+            codeUrl: ""
+
+
+        },
+        {
+            imgUrl: "/images/React-app.png",
+            title: "Teste Restaurnt & BBQ",
+            desc: "Delicious food for your cravings We made fresh and healthy meals with different recipes Delicious food for your craving We made fresh and healthy meals with different recipes",
+            stack: [
+                {
+                    react: "React js"
+                },
+                {
+                    react: "Redux"
+                },
+                {
+                    react: "chakra-ui"
+                },
+            ],           
+            demoText: "Live Demo",
+            demoIcon: <BsBoxArrowInUpRight/>,
+            codeText: "Code",
+            codeIcon: <AiFillGithub/>,
+            haveCode: true,
+            projectUrl: "https://serene-bose-1ff718.netlify.app/",
+            codeUrl: "https://github.com/AbdullahAhmed11/Food-shop/tree/master"
 
         },
     ]
@@ -167,7 +196,7 @@ function ProjectCart() {
                                                 <>
                                         <Link 
                                                 passHref
-                                                href=""
+                                                href={cart.codeUrl}
                                                 target="_blank" 
                                             >
                                                 <Box
