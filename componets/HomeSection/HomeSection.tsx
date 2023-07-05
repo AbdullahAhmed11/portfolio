@@ -8,7 +8,7 @@ import Link from "next/link";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {GiSpiralLollipop} from "react-icons/gi"
-
+import {COLOR} from ".././Constant"
 function HomeSection() {
 
 
@@ -50,6 +50,7 @@ function HomeSection() {
                     color="#555"
                     lineHeight="1.6"
                     fontFamily="Mulish,sans-serif"
+
                 >
                     Hi, I'm Abdullah Ahmed. A passionate Front-end React Developer based in Egypt. <GiSpiralLollipop color="red"/>
                 </Text>
