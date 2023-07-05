@@ -1,8 +1,18 @@
 import React from "react";
 import MaxWidthWrapper from "../MaxWidthWrapper/MaxWidthWrapper";
-import { Box, Text } from "@chakra-ui/react";
+import { Box, Text, Button } from "@chakra-ui/react";
+const PDF_FILE_URL = "http://localhost:3000/abdullah-ahmed.cv.pdf"
 
 function NavBar() {
+    const downloadFileAtUrl = (url: string): void => {
+        const fileName = url.split("/").pop();
+        const aTag = document.createElement("a");
+        aTag.href = url;
+        aTag.setAttribute("download", fileName!);
+        document.body.appendChild(aTag);
+        aTag.click();
+        aTag.remove();
+    };
 
     const  NAV_LINKS = 
     [
@@ -71,6 +81,21 @@ function NavBar() {
                         </Text>
                     ))
                 }
+            </Box>
+            <Box
+
+            >
+                <Button
+                        width="8rem"
+                        height="2rem"
+                        rounded="100px"
+                        bg="#fff"
+                        boxShadow="0 0 10px rgba(0,0,0,.09)"
+                        onClick={() => {
+                            downloadFileAtUrl(PDF_FILE_URL);
+                        }} 
+                        cursor="pointer" 
+                >Download resume</Button>
             </Box>
         </Box>
   
