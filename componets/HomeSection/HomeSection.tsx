@@ -8,7 +8,6 @@ import Link from "next/link";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {GiSpiralLollipop} from "react-icons/gi"
-import {COLOR} from ".././Constant"
 function HomeSection() {
 
 
