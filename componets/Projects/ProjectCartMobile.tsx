@@ -64,7 +64,7 @@ function ProjectCartMobile() {
             codeUrl: ""
 
         },
-                {
+        {
             imgUrl: "/images/Biznes.png",
             title: "Biznes Clinics",
             desc: "The Ultimate Startup Growth Platform, The Ultimate Startup Growth Platform ",

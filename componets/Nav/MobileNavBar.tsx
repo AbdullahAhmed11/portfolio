@@ -1,10 +1,14 @@
 import React from "react";
 import { 
         Box,
-        Text, 
+        Text,
+        Button,
     } from '@chakra-ui/react';
 import {RxHamburgerMenu} from "react-icons/rx"
 import {AiFillCloseCircle} from "react-icons/ai"
+import { downloadButton } from "../Download/DownoladButton";
+const PDF_FILE_URL = "http://localhost:3000/abdullah-ahmed.cv.pdf"
+
 function MobileNavBar() {
     const  NAV_LINKS = [
         {
@@ -58,6 +62,21 @@ function MobileNavBar() {
                 >
                     DevAbdullah
                 </Text> 
+            </Box>
+            <Box
+
+            >
+            <Button
+                width="8rem"
+                height="2rem"
+                rounded="100px"
+                bg="#fff"
+                boxShadow="0 0 10px rgba(0,0,0,.09)"
+                onClick={() => {
+                    downloadButton(PDF_FILE_URL);
+                }} 
+                cursor="pointer" 
+            >Download resume</Button>
             </Box>
             <Box>
                 <Text 
