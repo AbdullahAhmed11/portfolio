@@ -1,7 +1,7 @@
 import React from "react";
 import MaxWidthWrapper from "../MaxWidthWrapper/MaxWidthWrapper";
 import { Box, Text, Button } from "@chakra-ui/react";
-const PDF_FILE_URL = "http://localhost:3000/abdullah-ahmed.cv.pdf"
+const PDF_FILE_URL = "https://drive.google.com/file/d/1Kma0D8-u53iVojeVv5fQ3QcSuckasFS_/view"
 import { downloadButton } from "../Download/DownoladButton";
 
 function NavBar() {

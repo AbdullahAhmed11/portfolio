@@ -7,7 +7,7 @@ import {
 import {RxHamburgerMenu} from "react-icons/rx"
 import {AiFillCloseCircle} from "react-icons/ai"
 import { downloadButton } from "../Download/DownoladButton";
-const PDF_FILE_URL = "http://localhost:3000/abdullah-ahmed.cv.pdf"
+const PDF_FILE_URL = "https://drive.google.com/file/d/1Kma0D8-u53iVojeVv5fQ3QcSuckasFS_/view"
 
 function MobileNavBar() {
     const  NAV_LINKS = [
