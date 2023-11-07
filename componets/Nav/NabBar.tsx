@@ -1,82 +1,82 @@
 import React from "react";
 import MaxWidthWrapper from "../MaxWidthWrapper/MaxWidthWrapper";
 import { Box, Text, Button } from "@chakra-ui/react";
-const PDF_FILE_URL = "https://drive.google.com/file/d/1Kma0D8-u53iVojeVv5fQ3QcSuckasFS_/view"
+const PDF_FILE_URL = "https://drive.google.com/file/d/1_fWciXLZSaGm_hsZ-9w7CyvzwfIEvl-W/view?usp=sharing"
 import { downloadButton } from "../Download/DownoladButton";
 
 function NavBar() {
-    const  NAV_LINKS = 
-    [
-        {
-            label: "Home",
-            link: "/"
-        },
-        {
-            label: "About",
-            link: "/about"
-        },
-        {
-            label: "Projects",
-            link: "/projects"
-        },
-        {
-            label: "Contact",
-            link: "/contact"
-        },
-    ]
+    const NAV_LINKS =
+        [
+            {
+                label: "Home",
+                link: "/"
+            },
+            {
+                label: "About",
+                link: "/about"
+            },
+            {
+                label: "Projects",
+                link: "/projects"
+            },
+            {
+                label: "Contact",
+                link: "/contact"
+            },
+        ]
 
     return (
         <>
-        <Box
-            width="100%"
-            boxShadow="0 0 10px rgba(0,0,0,.09)"
-            display="flex"
-            alignItems="center"
-            justifyContent="space-between"
-            position="fixed"
-            p="20px"
-            as="nav"
-            bg="#fff"
-        >
-            <Box>
-                <Text
-                    fontWeight="bold"
-                    fontSize="1.2rem"
-                    color="#2d2e32"
-                    cursor="pointer"
-                >
-                    DevAbdullah
-                </Text>
-                    
-            </Box>
             <Box
+                width="100%"
+                boxShadow="0 0 10px rgba(0,0,0,.09)"
                 display="flex"
                 alignItems="center"
-                gap="20px"
-                mr="40px"
+                justifyContent="space-between"
+                position="fixed"
+                p="20px"
+                as="nav"
+                bg="#fff"
             >
-                {
-                    NAV_LINKS.map((item) => (
+                <Box>
+                    <Text
+                        fontWeight="bold"
+                        fontSize="1.2rem"
+                        color="#2d2e32"
+                        cursor="pointer"
+                    >
+                        DevAbdullah
+                    </Text>
 
-                        <Text 
-                            key={item.label}
-                            fontWeight="bold"
-                            fontSize="1.2rem"
-                            color="#2d2e32"
-                            cursor="pointer"
-                            as="a"
-                            href={item.link}
-                            textDecorationLine="none"
-                        >
-                            {item.label}
-                        </Text>
-                    ))
-                }
-            </Box>
-            <Box
+                </Box>
+                <Box
+                    display="flex"
+                    alignItems="center"
+                    gap="20px"
+                    mr="40px"
+                >
+                    {
+                        NAV_LINKS.map((item) => (
 
-            >
-                <Button
+                            <Text
+                                key={item.label}
+                                fontWeight="bold"
+                                fontSize="1.2rem"
+                                color="#2d2e32"
+                                cursor="pointer"
+                                as="a"
+                                href={item.link}
+                                textDecorationLine="none"
+                            >
+                                {item.label}
+                            </Text>
+                        ))
+                    }
+                </Box>
+                <Box
+
+                >
+                    <Button
                         width="8rem"
                         height="2rem"
                         rounded="100px"
@@ -84,12 +84,12 @@ function NavBar() {
                         boxShadow="0 0 10px rgba(0,0,0,.09)"
                         onClick={() => {
                             downloadButton(PDF_FILE_URL);
-                        }} 
-                        cursor="pointer" 
-                >Download resume</Button>
+                        }}
+                        cursor="pointer"
+                    >Download resume</Button>
+                </Box>
             </Box>
-        </Box>
-  
+
 
         </>
     )
