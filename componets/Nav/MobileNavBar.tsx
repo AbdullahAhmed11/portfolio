@@ -7,7 +7,7 @@ import {
 import { RxHamburgerMenu } from "react-icons/rx"
 import { AiFillCloseCircle } from "react-icons/ai"
 import { downloadButton } from "../Download/DownoladButton";
-const PDF_FILE_URL = "https://drive.google.com/file/d/1rNYUna3HcNe8QHj8WOy5UYZ0zxyUBVH6/view?usp=sharing"
+const PDF_FILE_URL = "https://drive.google.com/file/d/1_fWciXLZSaGm_hsZ-9w7CyvzwfIEvl-W/view?usp=sharing"
 
 function MobileNavBar() {
     const NAV_LINKS = [

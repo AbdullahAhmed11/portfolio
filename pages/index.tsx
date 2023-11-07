@@ -19,35 +19,35 @@ export default function Home() {
   const [isLargerThan798] = useMediaQuery('(min-width: 798px)')
   return (
     <Box
-    display="flex"
-    flexDirection="column"
+      display="flex"
+      flexDirection="column"
     >
       <Head>
         <title>@devAbdullah</title>
       </Head>
       <Box >
-        {isLargerThan798 ? <NavBar  /> : <MobileNavBar/>}
+        {isLargerThan798 ? <NavBar /> : <MobileNavBar />}
       </Box>
-      <Box 
+      <Box
         mt="70px"
       >
         {
-          isLargerThan798 ? <HomeSection /> : <HomeSectionMobile/>
+          isLargerThan798 ? <HomeSection /> : <HomeSectionMobile />
         }
       </Box>
       <Box mt="40px">
         {
-          isLargerThan798 ? <About/> : <AboutMobile/>
+          isLargerThan798 ? <About /> : <AboutMobile />
         }
       </Box>
       <Box>
-        <Projects/>
+        <Projects />
       </Box>
       <Box mt="70px">
         {
-          isLargerThan798 ? <Contact/> : <ContactMobile/>
+          isLargerThan798 ? <Contact /> : <ContactMobile />
         }
-        
+
       </Box>
     </Box>
 
