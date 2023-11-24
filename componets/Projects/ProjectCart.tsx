@@ -42,6 +42,30 @@ function ProjectCart() {
 
         },
         {
+            imgUrl: "/images/TableTuck.png",
+            title: "TableTuck",
+            desc: "TableTuck is a team of experienced developers, designers, and software engineers who also happen to be hardcore foodies. Many of us have worked in the industry as restaurant owners, chefs, waiters or delivery drivers, and all of us love to checkout the latest place around the corner",
+            stack: [
+                {
+                    react: "React"
+                },
+                {
+                    react: "Node.js"
+                },
+                {
+                    react: "Firebase"
+                },
+            ],
+            demoText: "Live Demo",
+            demoIcon: <BsBoxArrowInUpRight />,
+            codeText: "Code",
+            codeIcon: <AiFillGithub />,
+            haveCode: false,
+            projectUrl: "https://tabletuckdemo.web.app/",
+            codeUrl: ""
+
+        },
+        {
             imgUrl: "/images/Foodyman.png",
             title: "Foodyman",
             desc: "At Foodyman, we believe that good food should be accessible to everyone, regardless of time constraints or culinary expertise. Our mission is to connect you with a wide range of delicious meals from your favorite local restaurants and deliver them straight to your doorstep.",
