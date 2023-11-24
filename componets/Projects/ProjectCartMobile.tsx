@@ -41,7 +41,30 @@ function ProjectCartMobile() {
             codeUrl: ""
 
         },
+        {
+            imgUrl: "/images/TableTuck.png",
+            title: "TableTuck",
+            desc: "TableTuck is a team of experienced developers, designers, and software engineers who also happen to be hardcore foodies. Many of us have worked in the industry as restaurant owners, chefs, waiters or delivery drivers, and all of us love to checkout the latest place around the corner",
+            stack: [
+                {
+                    react: "React"
+                },
+                {
+                    react: "Node.js"
+                },
+                {
+                    react: "Firebase"
+                },
+            ],
+            demoText: "Live Demo",
+            demoIcon: <BsBoxArrowInUpRight />,
+            codeText: "Code",
+            codeIcon: <AiFillGithub />,
+            haveCode: false,
+            projectUrl: "https://tabletuckdemo.web.app/",
+            codeUrl: ""
 
+        },
         {
             imgUrl: "/images/Foodyman.png",
             title: "Foodyman",
