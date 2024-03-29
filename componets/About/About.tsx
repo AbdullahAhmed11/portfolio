@@ -4,47 +4,47 @@ import { Box, Image, Text } from "@chakra-ui/react";
 
 
 function About() {
-    const  IMAGE_URL = [
+    const IMAGE_URL = [
         {
-            src:"/images/html.png",
+            src: "/images/html.png",
             label: "html"
-        }, 
+        },
         {
-            src:"/images/css.png",
+            src: "/images/css.png",
             label: "css"
-        }, 
+        },
         {
-            src:"/images/javascript.png",
+            src: "/images/javascript.png",
             label: "js"
-        }, 
+        },
         {
-            src:"/images/tailwind.png",
+            src: "/images/tailwind.png",
             label: "tailwind"
-        }, 
+        },
         {
-            src:"/images/react.png",
+            src: "/images/react.png",
             label: "react"
-        }, 
+        },
         {
-            src:"/images/nextjs.png",
+            src: "/images/nextjs.png",
             label: "next"
-        }, 
+        },
         {
-            src:"/images/node.png",
+            src: "/images/node.png",
             label: "node"
-        }, 
+        },
         {
-            src:"/images/mongo.png",
+            src: "/images/mongo.png",
             label: "mongo"
-        }, 
+        },
         {
-            src:"/images/firebase.png",
+            src: "/images/firebase.png",
             label: "firebase"
-        }, 
+        },
         {
-            src:"/images/github1.png",
+            src: "/images/github1.png",
             label: "github1"
-        }, 
+        },
 
     ]
 
@@ -87,7 +87,7 @@ function About() {
                                     rounded="50%"
                                     key={item.label}
                                 >
-                                    <Image 
+                                    <Image
                                         src={item.src}
                                         width="1.4rem"
                                         height="1.4rem"
@@ -104,7 +104,7 @@ function About() {
                     mt="40px"
                 >
                     <Box>
-                        <Image 
+                        <Image
                             src="/images/about.jpg"
                             width="35rem"
                             rounded="1.7rem"
@@ -139,7 +139,7 @@ function About() {
                                 A dedicated Front-end Developer
                                 based in Egypt
                             </Text>
-                            <Text 
+                            <Text
                                 mt="15px"
                                 fontSize="1rem"
                                 fontWeight="500"
@@ -147,13 +147,13 @@ function About() {
                                 fontFamily="Mulish,sans-serif"
                                 color="#767676"
                             >
-            As a  Front-End Developer , I possess an impressive arsenal of skills in 
-            HTML, CSS, JavaScript, React, Next, Node, Express, MongoDb, Tailwind, and SCSS. I excel in designing and maintaining 
-            responsive websites that offer a smooth user experience. My expertise lies in crafting 
-            dynamic, engaging interfaces through writing clean and optimized code and utilizing 
-            cutting-edge development tools and techniques. I am also a team player who thrives in 
-            collaborating with cross-functional teams to produce outstanding web applications.
-            <strong>Currently</strong> I am working as a <strong>front-end developer</strong> at <strong>Shopless</strong>, building exceptional websites and apps. I spend my free time working on a new side project and reading about software patterns and architectures such as Clean Architecture.
+                                As a  Front-End Developer , I possess an impressive arsenal of skills in
+                                HTML, CSS, JavaScript, React, Next, Node, Express, MongoDb, Tailwind, and SCSS. I excel in designing and maintaining
+                                responsive websites that offer a smooth user experience. My expertise lies in crafting
+                                dynamic, engaging interfaces through writing clean and optimized code and utilizing
+                                cutting-edge development tools and techniques. I am also a team player who thrives in
+                                collaborating with cross-functional teams to produce outstanding web applications.
+                                <strong>Currently</strong> I am working as a <strong>Software engineer (mern-stack)</strong> at <strong>Zetatn (us)</strong>, building exceptional websites and apps. I spend my free time working on a new side project and reading about software patterns and architectures such as Clean Architecture.
                             </Text>
                         </Box>
                     </Box>
